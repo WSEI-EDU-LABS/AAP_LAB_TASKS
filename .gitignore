@@ -14,5 +14,6 @@ __pycache__/
 .DS_Store
 .vscode/
 
+
 # Requirements.txt zostawiamy, aby inni mogli odtworzyć środowisko
 # requirements.txt
