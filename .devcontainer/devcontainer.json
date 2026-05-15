@@ -1,0 +1,25 @@
+{
+    "name": "AAP - Architektura Aplikacji w Pythonie",
+    "image": "mcr.microsoft.com/devcontainers/python:3.13",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+                "python.testing.pytestEnabled": true
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-python.vscode-pylint",
+                "github.copilot",
+                "github.copilot-chat"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt && python -m ipykernel install --user --name=architektura-python --display-name='Python (Architektura)'",
+    "remoteUser": "vscode",
+    "runArgs": [
+        "--userns=keep-id"
+    ]
+}
