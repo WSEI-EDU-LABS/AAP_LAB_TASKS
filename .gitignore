@@ -16,3 +16,6 @@ __pycache__/
 
 # Requirements.txt zostawiamy, aby inni mogli odtworzyć środowisko
 # requirements.txt
+
+# Duże zbiory danych
+otomoto_offers_eng_23-04-2023.csv
