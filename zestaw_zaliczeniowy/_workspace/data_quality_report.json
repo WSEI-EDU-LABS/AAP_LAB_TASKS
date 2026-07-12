@@ -1,0 +1,41 @@
+{
+    "dataset_name": "IMDb Quality Contract",
+    "timestamp": "2026-06-25T19:17:37.645566",
+    "summary": {
+        "no_nulls": {
+            "passed": true,
+            "severity": "error",
+            "details": "Znaleziono 0 wartości NULL."
+        },
+        "labels_in_set": {
+            "passed": true,
+            "severity": "error",
+            "details": "Znaleziono 0 niepoprawnych etykiet."
+        },
+        "min_word_count": {
+            "passed": true,
+            "severity": "error",
+            "details": "Liczba recenzji poniżej 5 słów: 0."
+        },
+        "max_word_count": {
+            "passed": true,
+            "severity": "error",
+            "details": "Liczba recenzji powyżej 2000 słów: 0."
+        },
+        "no_duplicates": {
+            "passed": false,
+            "severity": "warning",
+            "details": "Znaleziono 1 duplikatów tekstu."
+        },
+        "class_balance": {
+            "passed": false,
+            "severity": "warning",
+            "details": "Stosunek klas: 0.333."
+        },
+        "no_html_tags": {
+            "passed": false,
+            "severity": "warning",
+            "details": "Liczba recenzji zawierających HTML: 1."
+        }
+    }
+}
